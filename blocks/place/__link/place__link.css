@@ -1,0 +1,9 @@
+.place__link {
+    font-family: Inter;
+    color: rgb(255, 255, 255);
+    transition: color 1s linear;
+}
+
+.place__link:hover {
+    color: rgba(255, 255, 255, .3);
+}
