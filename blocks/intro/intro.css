@@ -4,3 +4,9 @@
     width: 92vw;
     max-width: 984px;
 }
+
+@media only screen and (max-width: 767px) {
+    .intro {
+        padding: 64px 0 0 0;
+    }
+}

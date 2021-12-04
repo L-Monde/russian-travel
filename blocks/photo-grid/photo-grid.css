@@ -9,7 +9,7 @@
     gap: 16px;
 }
 
-@media only screen and (max-width: 1278px) and (min-width:1024px) {
+@media only screen and (max-width: 1279px) and (min-width:1024px) {
     .photo-grid {
         max-width: 928px;
         grid-template-columns: 1fr 1fr 1fr;
@@ -18,7 +18,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width:768px) {
+@media only screen and (max-width: 1023px) and (min-width:768px) {
     .photo-grid {
         max-width: 720px;
         padding-top: 88px;
@@ -27,7 +27,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .photo-grid {
         max-width: 288px;
         padding-top: 55px;
