@@ -2,8 +2,9 @@
     font-family: Inter, Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     transition: opacity 0.8s linear;
+    font-size: 18px;
 }
 
 .place__link:hover {
-    opacity: 0.3;
+    opacity: 0.8;
 }

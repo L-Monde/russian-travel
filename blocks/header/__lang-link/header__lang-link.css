@@ -15,16 +15,16 @@
     grid-column: 3 / 4;
 }
 
-.header__lang-link:last-of-type {
+.header__lang-link:nth-of-type(2) {
     grid-column: 4 / 5;
+}
+
+.header__lang-link:nth-of-type(3) {
+    grid-column: 5 / 6;
 }
 
 .header__lang-link:hover {
     opacity: 0.3;
-}
-
-.header__lang-link:lang(ru) {
-    text-decoration: underline;
 }
 
 

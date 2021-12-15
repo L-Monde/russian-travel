@@ -16,12 +16,7 @@
     .lead {
         max-width: 768px;
         padding: 48px 0 0 0;
-        margin: 0 0 0 0;
         width: 100%;
         min-width: 320px;
     }
-}
-
-@media only screen and (max-width: 1023px) and (min-width:768px) {
-    .lead {}
 }
