@@ -1,10 +1,8 @@
 .header {
     display: grid;
     gap: 5px;
-    grid-template-columns: 177px auto repeat(3, 31px);
-    grid-auto-flow: row;
-    grid-auto-columns: 31px;
-    grid-template-rows: 24px 18px;
+    grid-template-columns: 177px auto minmax(min-content, 30%);
+    grid-template-rows: 14px 28px;
     width: 92vw;
     max-width: 1184px;
     margin: 0 auto;

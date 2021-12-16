@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.4fr auto auto;
     column-gap: 40px;
-    row-gap: 48px;
+    row-gap: 26px;
     max-width: 984px;
 }
 
