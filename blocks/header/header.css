@@ -1,16 +1,21 @@
 .header {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: 177px auto minmax(min-content, 30%);
-    grid-template-rows: 14px 28px;
+    display: flex;
+    justify-content: space-between;
     width: 92vw;
     max-width: 1184px;
     margin: 0 auto;
     padding-top: 28px;
+    background-color: aqua;
 }
+
+
+/*display: grid;
+    gap: 5px;
+    grid-template-columns: 177px auto minmax(78px, 10%);
+    grid-template-rows: 14px 28px;*/
 
 @media only screen and (max-width: 767px) {
     .header {
-        padding-top: 16px;
+        padding: 16px 0;
     }
 }
